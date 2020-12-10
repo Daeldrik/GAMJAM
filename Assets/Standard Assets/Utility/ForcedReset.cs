@@ -2,7 +2,7 @@ using System;
 using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
 
-[RequireComponent(typeof (GUITexture))]
+[RequireComponent(typeof (TMPro.TMP_Text))]
 public class ForcedReset : MonoBehaviour
 {
     private void Update()
