@@ -63,10 +63,10 @@ CapsuleCollider:
   m_Material: {fileID: 13400000, guid: 176724f165ed631408775764c436d474, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 2
+  m_Radius: 0.14827827
+  m_Height: 0.3854195
   m_Direction: 1
-  m_Center: {x: 0, y: 1, z: 0}
+  m_Center: {x: 0.044155538, y: 0.19417006, z: 0.30756617}
 --- !u!114 &114035595676675280
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -83,7 +83,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1
   _groundLimit: 60
-  _stepOffset: 0.5
+  _stepOffset: 0.1
   _ledgeOffset: 0
   _castDistance: 0.5
   _triggerInteraction: 1
@@ -154,7 +154,7 @@ MonoBehaviour:
   _canCrouch: 1
   _standingHeight: 2
   _crouchingHeight: 1
-  _baseJumpHeight: 1.5
+  _baseJumpHeight: 0.5
   _extraJumpTime: 0.5
   _extraJumpPower: 25
   _jumpPreGroundedToleranceTime: 0.15
@@ -162,7 +162,7 @@ MonoBehaviour:
   _maxMidAirJumps: 1
   _useRootMotion: 0
   _rootMotionRotation: 0
-  _forwardSpeed: 5
+  _forwardSpeed: 2
   _backwardSpeed: 3
   _strafeSpeed: 4
   _runSpeedMultiplier: 2
@@ -224,7 +224,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1941879343550380}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.6, z: 0}
+  m_LocalPosition: {x: 0, y: 0.26, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4798498294483970}
