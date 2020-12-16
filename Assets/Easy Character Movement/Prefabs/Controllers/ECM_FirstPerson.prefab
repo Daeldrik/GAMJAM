@@ -47,14 +47,14 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1104601239848796}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.93
   m_Drag: 0
   m_AngularDrag: 0
-  m_UseGravity: 0
+  m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 2
 --- !u!136 &136832232054087272
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -85,8 +85,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1
   _groundLimit: 60
-  _stepOffset: 0.026962012
-  _ledgeOffset: 0
+  _stepOffset: 0.1
+  _ledgeOffset: 0.026962012
   _castDistance: 0.5
   _triggerInteraction: 1
 --- !u!114 &114854425937240818
@@ -144,9 +144,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bdd78ad1b02523246af003cc14e20b40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speed: 2
-  _angularSpeed: 540
-  _acceleration: 20
+  _speed: 2.27
+  _angularSpeed: 559.75
+  _acceleration: 25.6
   _deceleration: 15
   _groundFriction: 8
   _useBrakingFriction: 1
@@ -156,15 +156,15 @@ MonoBehaviour:
   _canCrouch: 1
   _standingHeight: 2
   _crouchingHeight: 1
-  _baseJumpHeight: 1
-  _extraJumpTime: 1
-  _extraJumpPower: 1
+  _baseJumpHeight: 0.8
+  _extraJumpTime: 1.4
+  _extraJumpPower: 1.53
   _jumpPreGroundedToleranceTime: 0.15
   _jumpPostGroundedToleranceTime: 0.15
   _maxMidAirJumps: 1
   _useRootMotion: 0
   _rootMotionRotation: 0
-  _forwardSpeed: 2.22
+  _forwardSpeed: 2.1
   _backwardSpeed: 1.01
   _strafeSpeed: 1.2
   _runSpeedMultiplier: 2
@@ -192,7 +192,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 816f47bf7a9ae56489edd96d7eb7fa42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nombreObjetsObjectif: 3
+  nombreObjetsObjectif: 6
   checkpointTransform: {fileID: 0}
 --- !u!1 &1389653564741890
 GameObject:
