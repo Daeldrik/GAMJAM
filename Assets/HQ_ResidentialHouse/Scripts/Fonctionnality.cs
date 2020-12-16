@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class StartGame : MonoBehaviour
+public class Fonctionnality : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -11,8 +11,17 @@ public class StartGame : MonoBehaviour
     }
     public void StartButton()
     {
-        Debug.Log(" Test");
+     
     }
+    public void Continue()
+    {
+
+    }
+    public void Quit()
+    {
+
+    }
+
     // Update is called once per frame
     void Update()
     {
