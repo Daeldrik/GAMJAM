@@ -29,6 +29,14 @@ public class itempick : MonoBehaviour
             Destroy(GameObject.FindWithTag("Item2"));
         }
 
+        if (collision.gameObject.tag == "Item3")
+
+        {
+            transform.position = PositionDepart;
+
+            Destroy(GameObject.FindWithTag("Item3"));
+        }
+
     }
 }
 
