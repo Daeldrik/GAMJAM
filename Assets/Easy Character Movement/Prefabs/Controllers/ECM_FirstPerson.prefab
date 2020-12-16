@@ -85,7 +85,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1
   _groundLimit: 60
-  _stepOffset: 0.1
+  _stepOffset: 0.026962012
   _ledgeOffset: 0
   _castDistance: 0.5
   _triggerInteraction: 1
@@ -192,6 +192,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 816f47bf7a9ae56489edd96d7eb7fa42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nombreObjetsObjectif: 3
+  checkpointTransform: {fileID: 0}
 --- !u!1 &1389653564741890
 GameObject:
   m_ObjectHideFlags: 0
