@@ -33,7 +33,7 @@ Transform:
   m_GameObject: {fileID: 1104601239848796}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.564, y: 2, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.90566653, y: 1.1767, z: 0.47321}
   m_Children:
   - {fileID: 4798498294483970}
   m_Father: {fileID: 0}
@@ -85,7 +85,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1
   _groundLimit: 60
-  _stepOffset: 0.1
+  _stepOffset: 0.026962012
   _ledgeOffset: 0.026962012
   _castDistance: 0.5
   _triggerInteraction: 1
@@ -192,7 +192,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 816f47bf7a9ae56489edd96d7eb7fa42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nombreObjetsObjectif: 6
+  nombreObjetsObjectif: 10
   checkpointTransform: {fileID: 0}
 --- !u!1 &1389653564741890
 GameObject:
@@ -252,7 +252,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1941879343550380}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.07, z: 0}
+  m_LocalPosition: {x: 0, y: -0.36, z: -0.03}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4798498294483970}
@@ -283,7 +283,7 @@ Camera:
     height: 1
   near clip plane: 0.01
   far clip plane: 1000
-  field of view: 105
+  field of view: 85
   orthographic: 0
   orthographic size: 5
   m_Depth: 100
