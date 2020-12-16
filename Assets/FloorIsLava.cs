@@ -19,8 +19,7 @@ public class FloorIsLava : MonoBehaviour
     {
         
         if (collision.gameObject.tag == "Floor")
-        { 
-            
+        {
             
             transform.position = StartPosition;
         }
