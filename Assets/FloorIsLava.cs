@@ -5,7 +5,10 @@ using UnityEngine;
 public class FloorIsLava : MonoBehaviour
 {
     Vector3 StartPosition;
-    
+
+    [SerializeField]
+    Transform checkpointTransform;
+
 
     private void Start()
     {
@@ -16,7 +19,17 @@ public class FloorIsLava : MonoBehaviour
     {
         
         if (collision.gameObject.tag == "Floor")
-        { transform.position = StartPosition;}
+        { 
+            
+            
+            transform.position = StartPosition;
+        }
+
+        if (collision.gameObject.tag == "Ground")
+        { 
+            
+            transform.position = checkpointTransform.position; 
+        }
 
     }
 }
