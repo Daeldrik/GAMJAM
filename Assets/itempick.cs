@@ -4,14 +4,19 @@ using UnityEngine;
 
 public class itempick : MonoBehaviour
 {
- 
+    Vector3 PositionDepart;
+
+    private void Start()
+    {
+        PositionDepart = transform.position;
+    }
     private void OnCollisionEnter(Collision collision)
     {
 
         if (collision.gameObject.tag == "Item")
 
-        { 
-            transform.position = new Vector3 (0.59f, 0.96f, 1.86f);
+        {
+            transform.position = PositionDepart;
 
             Destroy(GameObject.FindWithTag("Item"));
         }
@@ -19,7 +24,7 @@ public class itempick : MonoBehaviour
         if (collision.gameObject.tag == "Item2")
 
         {
-            transform.position = new Vector3(0.59f, 0.96f, 1.86f);
+            transform.position = PositionDepart;
 
             Destroy(GameObject.FindWithTag("Item2"));
         }

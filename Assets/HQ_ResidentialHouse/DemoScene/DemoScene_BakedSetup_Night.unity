@@ -15806,7 +15806,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4000010979909374, guid: 9cbe7a5d5641278499e1f9cd5fb931c8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.59
+      value: 4.638
       objectReference: {fileID: 0}
     - target: {fileID: 4000010979909374, guid: 9cbe7a5d5641278499e1f9cd5fb931c8, type: 3}
       propertyPath: m_LocalPosition.y
@@ -15814,7 +15814,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010979909374, guid: 9cbe7a5d5641278499e1f9cd5fb931c8, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.87
+      value: 1.297
       objectReference: {fileID: 0}
     - target: {fileID: 4000010979909374, guid: 9cbe7a5d5641278499e1f9cd5fb931c8, type: 3}
       propertyPath: m_LocalRotation.x
@@ -19109,7 +19109,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010979909374, guid: 9cbe7a5d5641278499e1f9cd5fb931c8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.86
+      value: 6.23
       objectReference: {fileID: 0}
     - target: {fileID: 4000010979909374, guid: 9cbe7a5d5641278499e1f9cd5fb931c8, type: 3}
       propertyPath: m_LocalPosition.y
@@ -19117,7 +19117,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010979909374, guid: 9cbe7a5d5641278499e1f9cd5fb931c8, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.76
+      value: 0.41
       objectReference: {fileID: 0}
     - target: {fileID: 4000010979909374, guid: 9cbe7a5d5641278499e1f9cd5fb931c8, type: 3}
       propertyPath: m_LocalRotation.x
@@ -34372,6 +34372,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_CollisionDetection
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114035595676675280, guid: 867b8d2eced67404186c5652491aa961,
+        type: 3}
+      propertyPath: _stepOffset
+      value: 0.1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 867b8d2eced67404186c5652491aa961, type: 3}
