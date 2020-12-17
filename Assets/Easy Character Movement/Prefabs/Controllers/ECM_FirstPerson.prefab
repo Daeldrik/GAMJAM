@@ -181,7 +181,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de1c2c15087db15488a20088dd723725, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LooseMusic: {fileID: 8300000, guid: db253bf0f85f3dc44a78870e17ea44c3, type: 3}
+  LooseMusic: {fileID: 8300000, guid: 5ec23020bc793f64b85891b6dcdff7a7, type: 3}
   checkpointTransform: {fileID: 0}
 --- !u!114 &2297382265585696122
 MonoBehaviour:
@@ -207,7 +207,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: db253bf0f85f3dc44a78870e17ea44c3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 5ec23020bc793f64b85891b6dcdff7a7, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
