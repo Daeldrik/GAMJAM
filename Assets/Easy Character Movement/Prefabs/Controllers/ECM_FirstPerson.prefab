@@ -195,7 +195,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 816f47bf7a9ae56489edd96d7eb7fa42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nombreObjetsObjectif: 12
+  nombreObjetsObjectif: 18
   checkpointTransform: {fileID: 0}
 --- !u!82 &7122285962023480289
 AudioSource:
