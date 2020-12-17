@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class itempick : MonoBehaviour
 {
@@ -27,9 +28,13 @@ public class itempick : MonoBehaviour
                 //On a ramassé tous les objets qu'on voulait
                 transform.position = checkpointTransform.position;
             }
-            Destroy(GameObject.FindWithTag("Item"));
+            Destroy(collision.gameObject);
         }
 
+        if (collision.gameObject.tag == "Item2")
+
+
+        { SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1); ; }
 
     }
 }
