@@ -2,12 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class itempick : MonoBehaviour
 {
     [SerializeField]
     int nombreObjetsObjectif;
-
+    [SerializeField]
+    TMP_Text TextObject;
     int nombreObjetsRamasses;
 
     [SerializeField]
@@ -15,14 +17,17 @@ public class itempick : MonoBehaviour
 
     private void Start()
     {
-        //PositionDepart = transform.position;
+        TextObject.text = "Mushrooms : " + nombreObjetsRamasses + " /19";
     }
+
+
     private void OnCollisionEnter(Collision collision)
     {
 
         if (collision.gameObject.tag == "Item")
         {
             nombreObjetsRamasses += 1;
+            TextObject.text = "Mushrooms : " + nombreObjetsRamasses + " /20";
             if(nombreObjetsRamasses == nombreObjetsObjectif)
             {
                 //On a ramassé tous les objets qu'on voulait
