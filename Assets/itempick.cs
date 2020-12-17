@@ -27,7 +27,7 @@ public class itempick : MonoBehaviour
         if (collision.gameObject.tag == "Item")
         {
             nombreObjetsRamasses += 1;
-            TextObject.text = "Mushrooms : " + nombreObjetsRamasses + " /20";
+            TextObject.text = "Mushrooms : " + nombreObjetsRamasses + " /19";
             if(nombreObjetsRamasses == nombreObjetsObjectif)
             {
                 //On a ramassé tous les objets qu'on voulait
@@ -39,7 +39,7 @@ public class itempick : MonoBehaviour
         if (collision.gameObject.tag == "Item2")
 
 
-        { SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1); ; }
+        { SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);  }
 
     }
 }
