@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class itempick : MonoBehaviour
 {
@@ -30,6 +31,10 @@ public class itempick : MonoBehaviour
             Destroy(collision.gameObject);
         }
 
+        if (collision.gameObject.tag == "Item2")
+
+
+        { SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1); ; }
 
     }
 }
