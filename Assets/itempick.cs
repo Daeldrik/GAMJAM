@@ -27,7 +27,7 @@ public class itempick : MonoBehaviour
                 //On a ramassé tous les objets qu'on voulait
                 transform.position = checkpointTransform.position;
             }
-            Destroy(GameObject.FindWithTag("Item"));
+            Destroy(collision.gameObject);
         }
 
 
