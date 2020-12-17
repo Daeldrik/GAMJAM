@@ -1187,9 +1187,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "R\xE8gle du jeu : Sauter de plateforme en plateforme, \xE9videmment \xE9viter
-    le sol couvert de lave si vous ne voulez pas r\xF4tir mes Chiken's, le but est
-    de ramasser 10 objets qui vous permettrons de remporter le jeu. Good Lucky"
+  m_text: "Rules of the game: Jump from platform to platform, obviously avoiding
+    touching the lava-covered ground! Anytime if you don't want to roast my Chiken\r's
+    !\nThe goal is to collect ten mushrooms which will allow you to win the game.
+    Good luck !"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
