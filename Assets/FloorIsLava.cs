@@ -11,6 +11,9 @@ public class FloorIsLava : MonoBehaviour
     [SerializeField]
     Transform checkpointTransform;
 
+    [SerializeField]
+    Transform checkpoint2Transform;
+
 
     private void Start()
     {
@@ -20,20 +23,28 @@ public class FloorIsLava : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        
+
         if (collision.gameObject.tag == "Floor")
         {
             source.PlayOneShot(LooseMusic);
-            
+
             transform.position = StartPosition;
+
+        }
+
+        if (collision.gameObject.tag == "Floor2")
+        {
+            source.PlayOneShot(LooseMusic);
+            transform.position = checkpoint2Transform.position;
         }
 
         if (collision.gameObject.tag == "Ground")
         {
-            source.PlayOneShot(LooseMusic);
-            
-            transform.position = checkpointTransform.position; 
+           source.PlayOneShot(LooseMusic);
+
+           transform.position = checkpointTransform.position;
         }
 
+       
     }
 }

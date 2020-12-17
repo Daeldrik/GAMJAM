@@ -10,6 +10,7 @@ TagManager:
   - Item2
   - Item3
   - Ground
+  - Floor2
   layers:
   - Default
   - TransparentFX
