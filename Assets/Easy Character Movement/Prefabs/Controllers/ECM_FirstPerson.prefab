@@ -86,7 +86,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1
   _groundLimit: 60
-  _stepOffset: 0.026962012
+  _stepOffset: 0.1
   _ledgeOffset: 0.026962012
   _castDistance: 0.5
   _triggerInteraction: 1
@@ -181,6 +181,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de1c2c15087db15488a20088dd723725, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  LooseMusic: {fileID: 8300000, guid: 5ec23020bc793f64b85891b6dcdff7a7, type: 3}
   checkpointTransform: {fileID: 0}
 --- !u!114 &2297382265585696122
 MonoBehaviour:
@@ -194,7 +195,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 816f47bf7a9ae56489edd96d7eb7fa42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nombreObjetsObjectif: 10
+  nombreObjetsObjectif: 18
   checkpointTransform: {fileID: 0}
 --- !u!82 &7122285962023480289
 AudioSource:
@@ -206,8 +207,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: db253bf0f85f3dc44a78870e17ea44c3, type: 3}
-  m_PlayOnAwake: 1
+  m_audioClip: {fileID: 8300000, guid: 5ec23020bc793f64b85891b6dcdff7a7, type: 3}
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
