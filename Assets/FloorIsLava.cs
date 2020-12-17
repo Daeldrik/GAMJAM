@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class FloorIsLava : MonoBehaviour
 {
+    public AudioClip LooseMusic;
+    private AudioSource source;
     Vector3 StartPosition;
 
     [SerializeField]
@@ -12,6 +14,7 @@ public class FloorIsLava : MonoBehaviour
 
     private void Start()
     {
+        source = GetComponent<AudioSource>();
         StartPosition = transform.position;
     }
 
@@ -20,12 +23,14 @@ public class FloorIsLava : MonoBehaviour
         
         if (collision.gameObject.tag == "Floor")
         {
+            source.PlayOneShot(LooseMusic);
             
             transform.position = StartPosition;
         }
 
         if (collision.gameObject.tag == "Ground")
-        { 
+        {
+            source.PlayOneShot(LooseMusic);
             
             transform.position = checkpointTransform.position; 
         }
