@@ -21,10 +21,10 @@ MonoBehaviour:
     value: 1
   intensity:
     overrideState: 1
-    value: 0.42
+    value: 1.47
   color:
     overrideState: 1
-    value: {r: 0, g: 0, b: 0, a: 1}
+    value: {r: 0.077, g: 0, b: 0, a: 1}
   ambientOnly:
     overrideState: 1
     value: 1
@@ -105,7 +105,7 @@ MonoBehaviour:
     value: 100
   tint:
     overrideState: 1
-    value: 24.33
+    value: 88.14
   colorFilter:
     overrideState: 1
     value: {r: 1, g: 1, b: 1, a: 1}
@@ -1378,7 +1378,7 @@ MonoBehaviour:
     value: 1
   intensity:
     overrideState: 1
-    value: 11.03
+    value: 10
   threshold:
     overrideState: 1
     value: 1
@@ -1406,7 +1406,7 @@ MonoBehaviour:
     defaultState: 1
   dirtIntensity:
     overrideState: 1
-    value: 0
+    value: 1
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
