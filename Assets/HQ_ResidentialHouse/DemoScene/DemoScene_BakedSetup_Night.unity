@@ -33666,7 +33666,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010739923216, guid: bf5ba0474328c1b4b8b5940432eae67b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.3177
+      value: -1.16
       objectReference: {fileID: 0}
     - target: {fileID: 4000010739923216, guid: bf5ba0474328c1b4b8b5940432eae67b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -36472,7 +36472,7 @@ PrefabInstance:
     - target: {fileID: 114035595676675280, guid: 867b8d2eced67404186c5652491aa961,
         type: 3}
       propertyPath: _stepOffset
-      value: 0.1
+      value: 0.026962012
       objectReference: {fileID: 0}
     - target: {fileID: 2297382265585696122, guid: 867b8d2eced67404186c5652491aa961,
         type: 3}
@@ -36489,6 +36489,11 @@ PrefabInstance:
       propertyPath: TextObject
       value: 
       objectReference: {fileID: 1491046804}
+    - target: {fileID: 2297382265585696122, guid: 867b8d2eced67404186c5652491aa961,
+        type: 3}
+      propertyPath: pickMush
+      value: 
+      objectReference: {fileID: 8300000, guid: 9f1328f61839f2849a21a6a72d9a49fc, type: 3}
     - target: {fileID: 3710685758283520121, guid: 867b8d2eced67404186c5652491aa961,
         type: 3}
       propertyPath: m_LocalPosition.z

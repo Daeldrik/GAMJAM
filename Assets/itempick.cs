@@ -6,6 +6,9 @@ using TMPro;
 
 public class itempick : MonoBehaviour
 {
+    public AudioClip pickMush;
+    private AudioSource source;
+
     [SerializeField]
     int nombreObjetsObjectif;
     [SerializeField]
@@ -16,7 +19,9 @@ public class itempick : MonoBehaviour
     Transform checkpointTransform;
 
     private void Start()
+
     {
+        source = GetComponent<AudioSource>();
         TextObject.text = "Mushrooms : " + nombreObjetsRamasses + " /21";
     }
 
@@ -26,6 +31,7 @@ public class itempick : MonoBehaviour
 
         if (collision.gameObject.tag == "Item")
         {
+            source.PlayOneShot(pickMush);
             nombreObjetsRamasses += 1;
             TextObject.text = "Mushrooms : " + nombreObjetsRamasses + " /21";
             if(nombreObjetsRamasses == nombreObjetsObjectif)
